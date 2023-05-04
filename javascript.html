@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="janelinha" id="janelinha">
+        Seu e-mail é: <span id="txt">    </span>
+        <br>
+        A soma é: <span id="resultado">  </span>
+        <br>
+        <button onclick="Fechar();" class="bt1"><ion-icon name="close-circle-outline"></ion-icon></button>
+    </div>
+
+    Digite seu e-mail:
+    <input type="text" id="email">
+    <button onclick="Mostrar();"> 
+        ENVIAR <br>
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+    </button>
+    <button onclick="MostrarJanelinha();"> CADASTRAR <br> <ion-icon name="business-outline"></ion-icon> </button>
+    <button onclick="Somar();"> SOMAR <br> <ion-icon name="add-circle-outline"></ion-icon> </button>
+    <button onclick="Imprimir();"> IMPRIMIR <br> <ion-icon name="print-outline"></ion-icon> </button>   
+    
+    <div class="texto1"> Esse é o texto 1 </div>
+    <div class="texto2"> Esse é o texto 2 </div>
+    <br>
+    <button class="BT"> BOTÃOZITO </button>
+
+</body>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
